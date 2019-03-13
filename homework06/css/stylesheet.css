@@ -1,0 +1,64 @@
+
+
+th {
+    background-color: #777;
+    color: white;
+
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    padding-right: 300px;
+    text-align: left;
+
+  }
+
+
+#about {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+#pTitle {
+    font-size: bold;
+    padding-left: 60px;
+    margin:10px;
+}
+
+#aboutP {
+    padding-left: 100px;
+}
+
+.homeBackground {
+    background-image: url(https://static1.squarespace.com/static/57c99e749de4bb3184279ffc/t/595cf9ae9f74561fce052744/1499265460838/miami-university.jpg?format=1500w);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.lanPage {
+    margin: 100px;
+}
+
+.reSize {
+    height: auto;
+    width: 100%; 
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    text-align: center;
+    color : white;
+    font-weight: bold;
+    font-size: 120%;
+  }
+

@@ -1,0 +1,145 @@
+#header {
+ /* background: url("custom_banner_background.png") repeat-x scroll center transparent;*/
+  background-color: #444444;
+
+ /* background-image: none;
+  background-color: none;
+*/
+}
+
+
+/*replace the canvas logo with your logo*/
+#header-logo {
+  background: url("custom_banner_logo_mod.png") no-repeat scroll 0 0 transparent;
+ /* bottom: 0px;
+  height: 67px;
+  left: 10px;
+  width: 114px;*/
+  top: 2px;
+  height: 80px;
+  left: -20px;
+  width: 370px;
+  background-size: 370px;
+}
+
+/* custom settings of header size for no user logged in (Publicly visible courses */
+
+#header.no-user #header-logo {
+  background: url("custom_banner_logo_mod.png") no-repeat scroll 0 0 transparent;
+  /*top: 3px;
+  height: 67px;
+  left: 10px;
+  width: 114px;*/
+ top: 2px;
+  height: 80px;
+  left: 1px;
+  width: 370px;
+  background-size: 370px;
+
+}
+
+#header.no-user {
+   /* background-color: transparent;
+    background-image: url('header_bg_no_user.png');*/
+   background-color: #444444;
+
+    /*background-position: left bottom;*/
+    height: 80px;
+}
+
+/* hide "Add New App" button, managed via JS file
+.external_tools, button.btn.btn-primary.add_tool_link.lm.pull-right{
+visibility: hidden;
+  height: 70px;
+}
+
+*/
+
+
+
+
+#modal-box-inner {
+  background: url("custom_login_logo.png") no-repeat;
+  height: 210px;
+  width:487px;
+
+/*adjust to move image to left and top; THIS COLOR ACTUALLLY CHANGES THE 'STAY SIGNED IN' AND TEXT COLOR IF CLICKING ON 'DON'T KNOW PW'*/
+  margin-left: 75px;
+  margin-top: 30px;
+  color: #FFFFFF !important;
+ }
+
+/*change the color of 'don't know your password'*/
+body.modal #modal-box.login-box a { color: #FFFFFF !important; }
+
+/*change the background color and the color of 'stay signed in'*/
+#modal-box.login-box {
+  background-color: #FFFFFF !important ;
+   color: #DEDEDE;
+}
+
+
+/*change the color of the login button*/
+body.modal #modal-box .btn, body.modal #login-box .btn {
+  background-color: #b61e2e !important;
+  background-image: none !important;
+  border-color: #FFFFFF;
+}
+
+#login_form .btn-primary, #login_form .btn-primary:hover {
+  background-color: #b61e2e;
+  background-image: none;
+  border: none !important;
+  color: #FFFFFF;
+  }
+
+
+/*this will remove the extra canvas logo*/
+body.modal #modal-box.login-box h1 {
+
+ background: none;
+  height: 135px;
+
+}
+
+#header-logo-secondary {
+  background: url("custom_banner_logo_right.png") no-repeat scroll 0 0 transparent;
+  bottom: 11px;
+  height: 26;
+  position: absolute;
+  right: 26px;
+  width: 109px;
+  display: block;
+}
+
+/* hides the report a problem link */
+#help-dialog #help-dialog-options a[href='#create_ticket'] {
+	display:none;
+}
+
+
+/*CSS Override for Mobile Version*/
+
+
+
+/*update the image URL*/
+body{
+  /*background: url(https://hilary.instructure.com/images/blue/bg.jpg?1358195888); */ /*This impacts Desktop background also, throughout the system */
+}
+
+#f1_container{
+  background: url(custom_login_mobile_logo.png) no-repeat center top;
+}
+
+.face{
+  background: url(custom_mobile_background.png);
+  border-radius: 0.3em;
+  box-shadow: 0px 4px 10px #999;
+}
+
+input{
+  background: #f3f3f3;
+  border-radius: 5px;
+  font-weight: normal;
+}
+

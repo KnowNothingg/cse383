@@ -1,0 +1,75 @@
+header {
+    background-color: #ffa500;
+    height: 100px;
+}
+
+footer {
+    background-color: black;
+    height:105px;
+}
+
+.formTitle {
+    font-weight: bold;
+    font-size: 120%;
+    font-style: inherit;
+}
+.title {
+    font-weight: bold;
+    font-size: 200%;
+    font-style: initial;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.reSize {
+    font-weight: 130;
+    font-size: 120%;
+    padding-left: 20px;
+}
+
+
+.bodyPadding {
+    background-color: lightgray;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 50px;
+}
+
+
+#radioButton {
+    font-size: 100%;
+    padding-left: 50px;
+}
+
+#button {
+    background-color: #ffa500;
+    text-align: center;
+    border-radius: 8px;
+    padding:7px;
+}
+
+#gap{
+    padding-left: 300px;
+}
+
+#gap2 {
+    padding-left: 200px;
+}
+
+#footerName {
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+
+#linkcolor {
+    color: white;
+    font-size: 90%;
+    padding-bottom: 20px;
+}
+
+div.block {
+    display: inline-block;
+    margin-left: 30px;
+}

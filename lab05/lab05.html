@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src = "js/lab05.js"></script>
+    <title>Lab 05</title>
+</head>
+<body>
+    <header>
+        <h1 id="pageTitle">CSE383 <span class="smallerFontSize">Lab 05</span></h1>
+        <p id="studentInfo">Ling Xiang</p>
+    </header>
+    <section class="whiteBackground">
+        <h2>Farenheit/Celsius conversion</h2> 
+        <label for = "degree">Degree: </label>
+        <input type = "text" name = "degrees" id = "degrees">
+
+        <p>Conversion: </p>
+        <input type = "radio" name = "type" id = "f2c" value = "Fahrenheit to Celsius">
+        <label for= "f2c">Fahrenheit to Celsius</label>
+        <input type = "radio" name = "type" id = "c2f" value = "Celsius to Fahrenheit" >
+        <label for= "c2f">Celsius to Fahrenheit</label>
+
+        <p>
+        <button onclick = "convert()">Convert</button></p>
+        <p id = "output"></p>
+    </section>
+</body>
+</html>

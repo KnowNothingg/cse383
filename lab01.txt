@@ -1,0 +1,12 @@
+1. Using curl can access to the hypertext, it has the access to other text. It contains document markup that provides additional information about links, formatting, and images. Using browser is that it downloads an HTML document from server. Browser will display the document to the user with the appropriate formatting. 
+
+2. curl only shows the contents of the hypertext. 
+	-I only shows the document information. -v shows the detailed information about the url, and also the contents of the hypertext. It makes the operation more talkative
+
+3. curl -I ceclnx01.cec.miamioh.edu/~castroa/cse383/lab01/page01.html returns 200
+    curl -I ceclnx01.cec.miamioh.edu/~castroa/cse383/lab01/page02.htm  returns 403
+
+
+4. User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+
+5. The header content-type is the same as the file extension. For text, it shows text/plain. For html, it shows text/html. For jpg, it shows image/jpg. 

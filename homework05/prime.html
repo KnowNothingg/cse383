@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src = "js/homework05.js"></script>
+    <title>Homework 05</title>
+</head>
+<body>
+    <header>
+        <h1 id="pageTitle">CSE383 <span class="smallerFontSize">Homework 05</span></h1>
+        <p id="studentInfo">Ling Xiang</p>
+        <nav>
+            <ul class="navigationList">
+                <li id = "currentPage" style = "color : white">Prime Numbers</li>
+                <li id = "currentPage" style = "background-color: #404040" ><a class = "headerLink" href="font.html"> CSS Font </a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2> Prime Numbers</h2>
+        <p>This option lets the user specify a limit n, and lists the prime numbers to n. </p>
+        <label for = "num"> n: </label>
+        <input type = "text" name = "number" id = "num">
+        <button onclick = "generate()">Generate prime numbers</button>
+        <p>Prime numbers up to n: </p>
+        <p id = "output"></p>

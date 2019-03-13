@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html lang = "en"> 
+	  <head> 
+		      <meta charset="UTF-8"> 
+		      <meta name = "description" content = "cse383 Lab04, A webpage with style and checkboxes, 2/20/2019">
+		      <meta name = "author" content = "Ling Xiang">
+		      <meta name = "keywords" content = "HTML,page,tags">
+		      <meta name = "contact" content = "xiangl2@miamioh.edu">
+		      <link rel = "stylesheet" href = "css/stylesheet.css">
+	        	<title> CSE383 Lab04 </title>
+
+      </head>
+      <body>
+          <header> 
+              <h1>CSE383. Lab 04</h1>
+              <p> Ling Xiang</p>
+          </header>
+          <secion>
+                <h2 style = "font-weight:bold"> Survey </h2>
+                <form action="http://ceclnx01.cec.miamioh.edu/~castroa/cse383/lab04/lab04response.html" method = "GET">
+                    <label for = "fullname">Name: </label>
+                    <input type = "text" name ="name" id ="fullname"> 
+                    
+        
+         <p>
+            <label for ="programming experience"> Programming experience: </label>
+                <select name = "experience"> 
+                <option value = "1">1 year </option>
+                 <option value = "2">2 years </option>
+                 <option value = "3">3 years </option>
+                 <option value = "4">4 years </option>
+                </select>
+        </p>
+
+
+    <p>what is your favorite Desktop Operating System</p>
+    <p>
+            <input type = "radio" name = "os" value = "Linux" value = "1" id = "DOS"><label for = "DOS">Linux</label><br>
+            <input type = "radio" name = "os" value = "MacOS" value = "2" id = "DOS"><label for = "DOS">MacOS</label><br>
+            <input type = "radio" name = "os" value = "Windows" value = "3" id = "DOS"><label for = "DOS">Windows</label><br>
+            <input type = "radio" name = "os" value = "Other" value = "4" id = "DOS"><label for = "DOS">Other</label><br>
+
+    </p>
+
+    <p>Select your favorite programming language(s). </p>
+        <input type = "checkbox" name = "python" id = "choice1">
+        <label for = "choice1">Python</label>
+        <input type = "checkbox" name = "java" id = "choice2">
+        <label for = "choice2">Java</label>
+        <input type = "checkbox" name = "cpp" id = "choice3">
+        <label for = "choice3">C/C++</label>
+        <input type = "checkbox" name = "other" id = "choice4">
+        <label for = "choice4">Other</label>
+
+    <p>Select all the IDEs you have used. (To select multiple IDEs hold control (Windows) or command (MacOS) key)</p>
+        <select name = "ides" size = "4" multiple>
+            <option value = "ecl">Eclipse</option>
+            <option value = "vis">Visual Studio Code</option>
+            <option value = "net">NetBeans</option>
+            <option value = "pic">PyCharm</option>
+            <option value = "xco">Xcode</option>
+            <option value = "other">Other</option>
+        </select>
+    
+        <p>
+            <input type = "submit" value = "Send">
+        </p>
+
+        </form>
+          </secion>
+        
+      </body>

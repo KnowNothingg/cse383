@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src = "js/homework05.js"></script>
+    <title>Homework 05</title>
+</head>
+<body>
+    <header>
+        <h1 id="pageTitle">CSE383 <span class="smallerFontSize">Homework 05</span></h1>
+        <p id="studentInfo">Ling Xiang</p>
+        <nav>
+            <ul class="navigationList">
+                <li id = "currentPage" style = "background-color: #404040"><a class = "headerLink" href = "prime.html">Prime Numbers</a></li>
+                <li id = "currentPage" style = "color : white"> CSS Font</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>CSS Font</h2>
+        <p>This option lets the user to modify the appearance of the text below. </p>
+        <p>Text color: 
+        <label name = "colorR">R: </label>
+        <input type = "text" onchange = "color()" name = "colorR" id = "R" value = "0">
+        <label name = "colorG"> G: </label>
+        <input name = "colorG" id = "G" type = "text" onchange = "color()" value = "0">
+        <label name = "colorB">B: </label>
+        <input name = "colorB" id = "B" type = "text" onchange = "color()" value = "0">
+    </p>
+
+    <p>Text alignment: 
+        <input type = "radio" name = "alignment" id = "left" onclick="left()">
+        <label name = "alignment" id = "left">Left</label>
+        <input type = "radio" name = "alignment" id = "center" onclick="center()">
+        <label name = "alignment" id = "center">Center</label>
+        <input type = "radio" name = "alignment" id = "Right" onclick="right()">
+        <label name = "alignment" id = "right">Right</label>
+    </p>
+
+    <p>Styles: 
+        <input type = "checkbox" name = "style" id = "bold" onclick="bold()">
+        <label name = "style" id = "bold">Bold</label>
+        <input type = "checkbox" name = "style" id = "italic" onclick="italic()">
+        <label name = "style" id = "italic">Italic</label>
+        <input type = "checkbox" name = "style" id = "underline" onclick="underline()">
+        <label name = "style" id = "underline">Underline</label>
+    </p>
+
+    <p id = "change">"None of you understand. I'm not locked up in here with YOU. You're locked up in here with ME." - Alan Moore</p>
+    
+
+
+    </section>
+    </body>
+    </html>
+
