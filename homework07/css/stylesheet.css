@@ -1,0 +1,23 @@
+.title {
+    color : white;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.sec {
+    margin-left: 35%;
+    margin-top: 25px;
+    margin-right: 100px;
+    line-height: 30px;
+}
+
+.size {
+    width: 300px;
+}
+
+.error {
+    background-color: #FFCCCC;
+    color: rgb(178,34,34);
+    margin-right: 420px;
+    padding-left: 5px;
+}
