@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div id = "loginpage">
+            <div class = "text-center">
+                <form class="form-group">
+                    <h1>Diary App</h1>
+                    <label for="username">Username: </label><br>
+                    <input type="text" id="username" name="username" placeholder="Enter your username"><br><br>
+                    <label for="password"> Password: </label><br>
+                    <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+                    <input type="submit" name="submit" class="btn btn-primary" value="login"><br><br><br>
+                    <div id = "error"></div>
+                    <a href = "#userpage">author</a>
+                </form>
+            </div>
+        </div>
+
+        <div id = "userpage">
+                <h1 class = "text-center"> Authors </h1>
+                <div class = "container">
+                    <div class = "row">
+                        <div class = "col-sm-12 col-md-12 col-lg-6">
+                            <img src = "author/mitch.jpg" alt = "Mitch's pic" class = "pic"> 
+                        </div>
+                        <div class = "col-sm-12 col-md-12 col-lg-6">
+                            <h2>Mitch Myers</h2>
+                            <p> Hello! My name is Mitch Myers. I like linux a lot and coding. 
+                                </p>
+                        </div>
+                        <div class = "col-sm-12 col-md-12 col-lg-6">
+                            <img src = "author/me.JPG" alt = "Ling's pic" class = "pic"> 
+                        </div>
+                        <div class = "col-sm-12 col-md-12 col-lg-6">
+                            <h2>Ling Xiang</h2>
+                            <p> I am just a super boring person and I happened to write this sentence.  </p>
+                        </div>
+                    </div> 
+                </div>
+        </div>
+
+        <div id = "diarypage">
+
+        </div>
+    </body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="scripts/scriptie.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main-body">
+    </div>
+
+    <div class="default-hide row" id="authors">
+    </div>
+
+    <footer class="footer fixed-bottom">
+        <div class="container">
+            <span class="text-muted">Authors</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+>>>>>>> 00e93bc62bce8f27cc357a7b3bead1636ab5a5b7
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="scripts/scriptie.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main-body">
+    </div>
+
+    <div class="default-hide row" id="authors">
+        
+    </div>
+
+    <footer class="footer fixed-bottom">
+        <div class="container">
+            <span class="text-muted">Authors</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+>>>>>>> 150e44f9870b4da8e3af513123f6360cbe1e8656
